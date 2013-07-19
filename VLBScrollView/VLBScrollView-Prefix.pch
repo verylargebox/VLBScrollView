@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'VLBScrollView' target in the 'VLBScrollView' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "DDLog.h"
+
+    static const int ddLogLevel = LOG_LEVEL_INFO;
+#endif
