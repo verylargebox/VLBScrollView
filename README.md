@@ -4,7 +4,7 @@ A UIScrollView that introduces the concept of 'pages', has built-in recycling an
 # VLBScrollView
 VLBScrollView divides a scrollview in equally sized views, each given an index so that it can be backed by a datasource.
 
-e.g a horizontal VLBScrollView of 3 with 196px for each view, yields the following:
+e.g a vertical VLBScrollView of 3 with 196px for each view, yields the following:
 
 <pre>
 320px
