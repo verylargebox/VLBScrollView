@@ -1,8 +1,8 @@
 # Introduction
 A UIScrollView that introduces the concept of 'pages', has built-in recycling and support for both vertical and horizontal orientations.
 
-
 # VLBScrollView
+While scrolling, VLBScrollView will either use a recycled view or create an existing one if none available.
  
 # What is included
 
