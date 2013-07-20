@@ -6,6 +6,7 @@ VLBScrollView divides a scrollview in equally sized views, each given an index s
 
 e.g a horizontal VLBScrollView of 3 with 196px for each view, yields the following:
 
+<pre>
 320px
  -    |---------------|          -
  |    |               |          |
@@ -30,6 +31,8 @@ e.g a horizontal VLBScrollView of 3 with 196px for each view, yields the followi
   	  |               |          |
 	    |---------------|          _
  
+
+</pre>
 
 The VLBScrollView is homogeneous, thus every view is of equal size and of the same type.
 
