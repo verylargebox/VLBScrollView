@@ -2,6 +2,37 @@
 A UIScrollView that introduces the concept of 'pages', has built-in recycling and support for both vertical and horizontal orientations.
 
 # VLBScrollView
+VLBScrollView divides a scrollview in equally sized views, each given an index so that it can be backed by a datasource.
+
+e.g a horizontal VLBScrollView of 3 with 196px for each view, yields the following:
+
+320px
+ -    |---------------|          -
+ |    |               |          |
+ |    |               |          |
+ |    |               |          |
+ |    |               |  196px   |
+ |    |               |          |
+ |    |               |          |
+ |    |---------------|          |
+ |    |               |          |
+ |    |               |          |
+ 480px|               |  196px   |
+ |    |               |          |
+ |    |               |         588px
+ |    |               |          |
+ |    |---------------|          |
+ |    |               |          |
+ |    |               |          |
+ |    |               |          |
+ -    |               |  196px   |
+      |               |          |
+  	  |               |          |
+	    |---------------|          _
+ 
+
+The VLBScrollView is homogeneous, thus every view is of equal size and of the same type.
+
 While scrolling, VLBScrollView will either use a recycled view or create an existing one if none available.
  
 # What is included
