@@ -79,7 +79,7 @@ See [VLBScrollViewApp][1].
 # Future Work
 
 Push a UINavigationBar out of the way on scroll  
-Have a persistent header UIView.
+Have a persistent header on scroll.
 
 Improve the API; when constructing a new VLBScrollView enforce the precondition to set a datasource/scrollViewDelegate.  
 Improve the API; make only the minimum implementation fall under the @required directive.
