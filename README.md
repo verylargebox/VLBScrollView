@@ -45,7 +45,11 @@ The 'VLBScrollView.xcodeproj' builds a static library 'libVLBScrollView.a'
 
 # Cocoapods
 
-Pending pull request.
+-> VLBScrollView (1.0)
+   A UIScrollView that introduces the concept of 'pages', has built-in recycling and support for both vertical and horizontal orientations.
+   - Homepage: https://github.com/qnoid/VLBScrollView
+   - Source:   https://github.com/qnoid/VLBScrollView.git
+   - Versions: 1.0 [master repo]
 
 # Versions
 1.0 initial version. Support pages, horizontal/vertical orientation, tapable views, seeking.
