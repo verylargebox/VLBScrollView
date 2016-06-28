@@ -43,7 +43,7 @@ While scrolling, VLBScrollView will either use a recycled view or create an exis
 * VLBScrollView
 The 'VLBScrollView.xcodeproj' builds a static library 'libVLBScrollView.a'
 
-# Cocoapods
+# CocoaPods
 
 -> VLBScrollView (1.0)
    A UIScrollView that introduces the concept of 'pages', has built-in recycling and support for both vertical and horizontal orientations.
