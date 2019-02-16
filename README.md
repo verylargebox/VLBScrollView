@@ -1,3 +1,10 @@
+# Notice
+
+Archived - Hasn't been maintained in 6 years
+Preserved as reference material
+
+* * * 
+
 # Introduction
 A UIScrollView that introduces the concept of 'pages', has built-in page recycling and support for both vertical and horizontal orientations.
 
